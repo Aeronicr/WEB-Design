@@ -1,0 +1,686 @@
+/*!house 1 (relative)*/
+
+.house1{
+	position: relative;
+	top: 0px;
+    z-index: 1;
+}
+
+.house1_funnel{
+	width: 45px;
+    height: 80px;
+    background: #20181B;
+    position: relative;
+    left: 350px;
+    top: 150px;
+    z-index: 2;
+}
+
+.house1_roof{
+	width: 0;
+	height: 0;
+	border-left: 240px solid transparent;
+    border-right: 240px solid transparent;
+    border-bottom: 210px solid #4F0000;
+	position: relative;
+	left: 0px;
+    top: 00px;
+    z-index: 3;
+}
+
+.house1_frame{
+	width: 435px;
+    height: 300px;
+	background: #BA3409;
+	position: relative;
+	left: 20px;
+    top: 0px;
+    z-index: 3;
+}
+
+.house1_window1 {
+	width: 60px;
+    height: 60px;
+	background: lightskyblue;
+	display: inline-block;
+	position: relative;
+	top: 20px;
+    left: 150px;
+    border: 3px solid #643301;
+    z-index: 4;
+}
+
+.house1_frame1 {
+	height: 60px;
+    width: 3px;
+    position: relative;
+    background: #643305;
+    left: 30px;
+    top: 0px;
+    z-index: 6;
+}
+
+.house1_door2{
+	width: 55px;
+    height: 85px;
+    background: #FDF7B9;
+    top: -50px;
+    left: 215px;
+    position: relative;
+    border: 3px solid #643301;
+    z-index: 4;
+}
+
+.house1_door_handle2{
+	width: 4px;
+    height: 13px;
+    border-radius: 30%;
+	background-color: #C97720;
+	position: relative;
+	top: 35px;
+    left: 2px;
+    z-index: 5;
+}
+
+.house1_balcony{
+	width: 145px;
+    height: 40px;
+    top: -90px;
+    left: 140px;
+    position: relative;
+    border: 1px solid blue;
+    background: yellow;
+    opacity: 0.65;
+    z-index: 7;
+}
+
+.house1_window2{
+	width: 80px;
+    height: 90px;
+	background: lightskyblue;
+	display: inline-block;
+	position: relative;
+	top: -370px;
+    left: 30px;
+    border: 3px solid #643301;
+    z-index: 4;
+}
+
+.house1_frame2 {
+	height: 92px;
+    width: 3px;
+    position: relative;
+    background: #643305;
+    left: 40px;
+    top: 0px;
+    z-index: 6;
+}
+
+
+.house1_window3{
+	width: 80px;
+    height: 90px;
+	background: lightskyblue;
+	display: inline-block;
+	position: relative;
+	top: -185px;
+    left: 230px;
+    border: 3px solid #643301;
+    z-index: 4;
+}
+
+.house1_frame3 {
+	height: 90px;
+    width: 3px;
+    position: relative;
+    background: #643305;
+    left: 40px;
+    top: 0px;
+    z-index: 6;
+}
+
+.house1_window4{
+	width: 80px;
+    height: 90px;
+	background: lightskyblue;
+	display: inline-block;
+	position: relative;
+	top: 30px;
+    left: -292px;
+    border: 3px solid #643301;
+    z-index: 4;
+}
+
+.house1_frame4 {
+	height: 90px;
+    width: 3px;
+    position: relative;
+    background: #643305;
+	top: 0px;
+    left: 40px;
+    z-index: 6;
+}
+
+.house1_window5{
+	width: 80px;
+    height: 90px;
+	background: lightskyblue;
+	display: inline-block;
+	position: relative;
+	top: -90px;
+    left: 287px;
+    border: 3px solid #643301;
+    z-index: 4;
+}
+
+.house1_frame5 {
+	height: 90px;
+    width: 3px;
+    position: relative;
+    background: #643305;
+	top: 0px;
+    left: 40px;
+    z-index: 6;
+}
+
+.house1_door {
+    height: 110px;
+    width: 70px;
+    background: #663305;
+    position: relative;
+    left: 140px;
+    top: -177px;
+    border: 3px solid #260000;
+    z-index: 6;
+  }
+
+.house1_stairs1 {
+	width: 150px;
+    height: 12px;
+    position: relative;
+    background: gray;
+    left: -40px;
+    top: 100px;
+    z-index: 5;
+    border: 1px solid black
+}
+
+.house1_stairs2 {
+	width: 150px;
+    height: 12px;
+    position: relative;
+    background: gray;
+    left: -40px;
+    top: 99px;
+    z-index: 5;
+    border: 1px solid black
+}
+
+.house1_door_handle{
+	width: 4px;
+    height: 13px;
+    border-radius: 30%;
+	background-color: #C97720;
+	position: relative;
+	top: 50px;
+    left: 5px;
+    z-index: 5;
+}
+
+
+/*house 2 (absolute)*/
+
+.house2{
+	position: absolute;
+	top: 350px;
+    z-index: 1;
+}
+
+.house2_funnel{
+	width: 45px;
+    height: 80px;
+    background: #20181B;
+    position: absolute;
+    left: 350px;
+    top: 90px;
+    z-index: 2;
+}
+
+.house2_roof{
+	width: 0;
+	height: 0;
+	border-left: 240px solid transparent;
+    border-right: 240px solid transparent;
+    border-bottom: 210px solid #4F0000;
+	position: absolute;
+	left: 0px;
+    top: 20px;
+    z-index: 3;
+}
+
+.house2_frame{
+	width: 435px;
+    height: 300px;
+	background: #BA3409;
+	position: absolute;
+	left: 20px;
+    top: 230px;
+    z-index: 3;
+}
+
+.house2_window1 {
+	width: 60px;
+    height: 60px;
+	background: lightskyblue;
+	display: inline-block;
+	position: absolute;
+	top: 20px;
+    left: 150px;
+    border: 3px solid #643301;
+    z-index: 4;
+}
+
+.house2_frame1 {
+	height: 65px;
+    width: 3px;
+    position: absolute;
+    background: #643305;
+    left: 30px;
+    top: 0px;
+    z-index: 6;
+}
+
+.house2_door2{
+	width: 55px;
+    height: 85px;
+    background: #FDF7B9;
+    top: 20px;
+    left: 215px;
+    position: absolute;
+    border: 3px solid #643301;
+    z-index: 4;
+}
+
+.house2_door_handle2{
+	width: 4px;
+    height: 13px;
+    border-radius: 30%;
+	background-color: #C97720;
+	position: absolute;
+	top: 35px;
+    left: 2px;
+    z-index: 5;
+}
+
+.house2_balcony{
+	width: 145px;
+    height: 40px;
+    top: 70px;
+    left: 140px;
+    position: absolute;
+    border: 1px solid blue;
+    background: yellow;
+    opacity: 0.65;
+    z-index: 7;
+}
+
+.house2_window2{
+	width: 80px;
+    height: 90px;
+	background: lightskyblue;
+	display: inline-block;
+	position: absolute;
+	top: 20px;
+    left: 30px;
+    border: 3px solid #643301;
+    z-index: 4;
+}
+
+.house2_frame2 {
+	height: 92px;
+    width: 3px;
+    position: absolute;
+    background: #643305;
+    left: 40px;
+    top: 0px;
+    z-index: 6;
+}
+
+
+.house2_window3{
+	width: 80px;
+    height: 90px;
+	background: lightskyblue;
+	display: inline-block;
+	position: absolute;
+	top: 20px;
+    left: 320px;
+    border: 3px solid #643301;
+    z-index: 4;
+}
+
+.house2_frame3 {
+	height: 90px;
+    width: 3px;
+    position: absolute;
+    background: #643305;
+    left: 40px;
+    top: 0px;
+    z-index: 6;
+}
+
+.house2_window4{
+	width: 80px;
+    height: 90px;
+	background: lightskyblue;
+	display: inline-block;
+	position: absolute;
+	top: 120px;
+    left: -292px;
+    border: 3px solid #643301;
+    z-index: 4;
+}
+
+.house2_frame4 {
+	height: 90px;
+    width: 3px;
+    position: absolute;
+    background: #643305;
+	top: 0px;
+    left: 40px;
+    z-index: 6;
+}
+
+.house2_window5{
+	width: 80px;
+    height: 90px;
+	background: lightskyblue;
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+    left: 287px;
+    border: 3px solid #643301;
+    z-index: 4;
+}
+
+.house2_frame5 {
+	height: 90px;
+    width: 3px;
+    position: absolute;
+    background: #643305;
+	top: 0px;
+    left: 40px;
+    z-index: 6;
+}
+
+.house2_door {
+    height: 110px;
+    width: 70px;
+    background: #663305;
+    position: absolute;
+    left: 140px;
+    top: 13px;
+    border: 3px solid #260000;
+    z-index: 6;
+  }
+
+.house2_stairs1 {
+	width: 150px;
+    height: 12px;
+    position: absolute;
+    background: gray;
+    left: -40px;
+    top: 124px;
+    z-index: 5;
+    border: 1px solid black
+}
+
+.house2_stairs2 {
+	width: 150px;
+    height: 12px;
+    position: absolute;
+    background: gray;
+    left: -40px;
+    top: 112px;
+    z-index: 5;
+    border: 1px solid black
+}
+
+.house2_door_handle{
+	width: 4px;
+    height: 13px;
+    border-radius: 30%;
+	background-color: #C97720;
+	position: absolute;
+	top: 50px;
+    left: 5px;
+    z-index: 5;
+}
+
+
+/*house 3 (fixed)*/
+
+.house3{
+	position: fixed;
+    z-index: 1;
+}
+
+.house3_funnel{
+	width: 45px;
+    height: 80px;
+    background: #20181B;
+    position: fixed;
+    left: 1050px;
+    top: 90px;
+    z-index: 2;
+}
+
+.house3_roof{
+	width: 0;
+	height: 0;
+	border-left: 240px solid transparent;
+    border-right: 240px solid transparent;
+    border-bottom: 210px solid #4F0000;
+	position: fixed;
+	left: 700px;
+    top: 20px;
+    z-index: 3;
+}
+
+.house3_frame{
+	width: 435px;
+    height: 300px;
+	background: #BA3409;
+	position: fixed;
+	left: 723px;
+    top: 230px;
+    z-index: 3;
+}
+
+.house3_window1 {
+	width: 60px;
+    height: 60px;
+	background: lightskyblue;
+	display: inline-block;
+	position: fixed;
+	top: 250px;
+    left: 875px;
+    border: 3px solid #643301;
+    z-index: 4;
+}
+
+.house3_frame1 {
+	height: 65px;
+    width: 3px;
+    position: fixed;
+    background: #643305;
+    left: 907px;
+    top: 250px;
+    z-index: 6;
+}
+
+.house3_door2{
+	width: 55px;
+    height: 85px;
+    background: #FDF7B9;
+    top: 250px;
+    left: 940px;
+    position: fixed;
+    border: 3px solid #643301;
+    z-index: 4;
+}
+
+.house3_door_handle2{
+	width: 4px;
+    height: 13px;
+    border-radius: 30%;
+	background-color: #C97720;
+	position: fixed;
+	top: 290px;
+    left: 945px;
+    z-index: 5;
+}
+
+.house3_balcony{
+	width: 145px;
+    height: 40px;
+    top: 300px;
+    left: 865px;
+    position: fixed;
+    border: 1px solid blue;
+    background: yellow;
+    opacity: 0.65;
+    z-index: 7;
+}
+
+.house3_window2{
+	width: 80px;
+    height: 90px;
+	background: lightskyblue;
+	display: inline-block;
+	position: fixed;
+	top: 245px;
+    left: 750px;
+    border: 3px solid #643301;
+    z-index: 4;
+}
+
+.house3_frame2 {
+	height: 95px;
+    width: 3px;
+    position: fixed;
+    background: #643305;
+    left: 791px;
+    top: 245px;
+    z-index: 6;
+}
+
+
+.house3_window3{
+	width: 80px;
+    height: 90px;
+	background: lightskyblue;
+	display: inline-block;
+	position: fixed;
+	top: 245px;
+    left: 1040px;
+    border: 3px solid #643301;
+    z-index: 4;
+}
+
+.house3_frame3 {
+	height: 95px;
+    width: 3px;
+    position: fixed;
+    background: #643305;
+    left: 1081px;
+    top: 245px;
+    z-index: 6;
+}
+
+.house3_window4{
+	width: 80px;
+    height: 90px;
+	background: lightskyblue;
+	display: inline-block;
+	position: fixed;
+	top: 365px;
+    left: 1040px;
+    border: 3px solid #643301;
+    z-index: 4;
+}
+
+.house3_frame4 {
+	height: 95px;
+    width: 3px;
+    position: fixed;
+    background: #643305;
+    left: 1081px;
+    top: 365px;
+    z-index: 6;
+}
+
+.house3_window5{
+	width: 80px;
+    height: 90px;
+	background: lightskyblue;
+	display: inline-block;
+	position: fixed;
+	top: 365px;
+    left: 750px;
+    border: 3px solid #643301;
+    z-index: 4;
+}
+
+.house3_frame5 {
+	height: 95px;
+    width: 3px;
+    position: fixed;
+    background: #643305;
+    left: 791px;
+    top: 365px;
+    z-index: 6;
+}
+
+.house3_door {
+    height: 110px;
+    width: 70px;
+    background: #663305;
+    position: fixed;
+    left: 901px;
+    top: 390px;
+    border: 3px solid #260000
+  }
+
+.house3_stairs1 {
+	width: 150px;
+    height: 12px;
+    position: fixed;
+    background: gray;
+    left: 865px;
+    top: 516px;
+    z-index: 5;
+    border: 1px solid black
+}
+
+.house3_stairs2 {
+	width: 150px;
+    height: 12px;
+    position: fixed;
+    background: gray;
+    left: 865px;
+    top: 505px;
+    z-index: 5;
+    border: 1px solid black
+}
+
+.house3_door_handle{
+	width: 4px;
+    height: 13px;
+    border-radius: 30%;
+	background-color: #C97720;
+	position: fixed;
+	top: 440px;
+    left: 907px;
+    z-index: 5;
+}
