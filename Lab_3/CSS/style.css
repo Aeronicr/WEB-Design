@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  html,
+  body {
+    height: 100vh;
+  }
+body{
+    /* height: 100%; */
+    width: 100%;
+    padding-left: 0%;
+    position: relative;
+    padding-top: 0%;
+    margin-top: 0%;
+    }
+    #main{
+    position: relative;
+    min-height: 100%;
+    }
+    #header{ 
+    background:#F9E670;
+    background-image: url(https://picua.org/images/2018/10/22/7047f96a0d840742bd5dd2857ada494c.jpg);
+    width:100%;
+    min-height: 90%;
+    text-align:center;
+    color:#FFFFFF;
+    font-size:14px;
+    padding-top:30px;
+    border: 0.5px solid red;
+    }
+    #header img {
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    border: 1px solid black;
+    float: none;
+    margin-top: -22px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    menu {
+    text-align: center;
+    background: #F5ECC4;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid red;
+    border-left:1px solid red;
+    border-right:1px solid red;
+    }
+    menu li{
+    display:inline-block;
+    text-align: center;
+    }
+    menu a {
+    display: block;
+    padding: 5px 15px;
+    color: #8C0000;
+    font-size:100%;
+    text-decoration: none;
+    }
+    #menu a:hover {
+    background: whitesmoke;
+    }
+    #content{
+     background:white;
+     text-align:center;
+     overflow: hidden;
+     padding-bottom: 90px;
+    }
+    #content li{
+    display:inline-block;
+    text-align: center;
+    }
+    #content a {
+    display: block;
+    padding: 2% 70%;
+    color: #8C0000;
+    margin-left: 20px;
+    }
+    #content img{
+    width: 250px;
+    height: 177px;
+    }
+    #text{
+    font-size: 20px;
+    color: black;
+    font-style: italic;
+    text-indent: 2%;
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top:0%;
+    }
+    #footer{
+    margin-top: -33px;
+    background: #F5ECC4;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 32px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /*height: 40px;*/
+    }
+    #menu2 li{
+    display:inline-block;
+    text-align: center;
+    }
+    #menu2 a:hover {
+    background: whitesmoke;
+    }
+    #menu2 a {
+    display: block;
+    padding: 3.5px 17px;
+    color: #8C0000;
+    }
+    #menu2 img{
+    width: 30px;
+    height: 30px;
+    }
+
+    @media (min-width: 1070px){
+      #header {
+          padding-bottom: 30px;
+      }
+    }
+    
+    
+    
+    @media (max-width: 768px) and (orientation: portrait){
+      #header{
+        padding-bottom: 80px;
+      }
+      #text{
+        font-size: 39px;
+        text-indent: 7%;
+      }
+    
+      #menu li {
+        display: inline-block;
+        text-align: center;
+        font-size: 30px;
+      }
+    
+      #content li {
+        margin-left: -69px;
+      }
+    
+      #footer {
+        font-size: 58px;
+    }
+  
+    @media (max-width: 1024px) and (orientation: landscape){
+    
+      #header{
+        padding-bottom: 100px;
+      }
+      #text{
+        font-size: 49px;
+        text-indent: 7%;
+      }
+    
+      #menu li {
+        display: inline-block;
+        text-align: center;
+        font-size: 40px;
+      }
+    
+      #content li {
+        margin-left: -95px;
+      }
+    
+      #footer {
+        font-size: 77px;
+    }
+    
+    @media (max-width: 375px)  and (orientation: portrait){
+    
+      #header{
+        padding-bottom: 110px;
+      }
+      #text{
+        font-size: 48px;
+        text-indent: 7%;
+      }
+    
+      #menu li {
+        display: inline-block;
+        text-align: center;
+        font-size: 38px;
+      }
+    
+      #content li {
+        margin-left: -76px;
+      }
+    
+      #footer {
+        font-size: 74px;
+    }
+    
+    
+    @media (max-width: 411px)  and (orientation: landscape){
+    
+      #header{
+        padding-bottom: 90px;
+      }
+      #text{
+        font-size: 48px;
+        text-indent: 7%;
+      }
+    
+      #menu li {
+        display: inline-block;
+        text-align: center;
+        font-size: 38px;
+      }
+    
+      #content li {
+        margin-left: -76px;
+      }
+    
+      #footer {
+        font-size: 82px;
+    }
+  }
